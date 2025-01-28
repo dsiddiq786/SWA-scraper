@@ -13,6 +13,8 @@ const {
 } = require("ghost-cursor");
 const randomUseragent = require("random-useragent");
 
+const pluginAnonymizeUA = require("puppeteer-extra-plugin-anonymize-ua");
+puppeteerExtra.use(pluginAnonymizeUA());
 // Import processing functions
 const {
   processFlightNums,
@@ -49,8 +51,12 @@ async function getBrowser() {
         "--start-maximized",
         `--user-agent=${randomUseragent.getRandom()}`,
         "--disable-extensions",
-        "--no-sandbox",
         "--disable-setuid-sandbox",
+        "--ignore-certificate-errors", // Ignores SSL certificate errors
+        "--disable-web-security",
+        "--allow-running-insecure-content",
+        "--no-sandbox",
+        "--disable-gpu",
       ],
       timeout: 90000, // Increased timeout to 90s
     });
@@ -124,7 +130,10 @@ async function pageScrape(dept, arr, dateStr, url) {
     }
 
     await page.evaluate(() => window.scrollBy(0, 450));
-    await page.waitForTimeout(3000);
+    const randomDelay = (min, max) =>
+      Math.floor(Math.random() * (max - min + 1) + min);
+
+    await page.waitForTimeout(randomDelay(2000, 5000)); // Wait 2-5 seconds before interacting
 
     // Count number of flights found
     const count = await page.$$eval(

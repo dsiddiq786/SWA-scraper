@@ -1,0 +1,291 @@
+[
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "AUS",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["491", "441", "348"],
+      "arrTime": "3:50 PM",
+      "deptTime": "12:05 PM",
+      "duration": "3h 45m",
+      "numStops": "1",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2432", "3831"],
+      "planeChange": "DAL"
+    },
+    "id": 12
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "AUS",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["496", "446", "353"],
+      "arrTime": "6:55 PM",
+      "deptTime": "12:05 PM",
+      "duration": "6h 50m",
+      "numStops": "1",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2432", "3652"],
+      "planeChange": "DAL"
+    },
+    "id": 13
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "AUS",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["516", "466", "348"],
+      "arrTime": "10:40 PM",
+      "deptTime": "4:45 PM",
+      "duration": "5h 55m",
+      "numStops": "1",
+      "seatsLeft": ["3", null, null],
+      "flightNums": ["4855", "3891"],
+      "planeChange": "LAS"
+    },
+    "id": 14
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "AUS",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["491", "441", "348"],
+      "arrTime": "9:30 PM",
+      "deptTime": "6:30 PM",
+      "duration": "3h 0m",
+      "numStops": "1",
+      "seatsLeft": ["5", null, null],
+      "flightNums": ["3553", "378"],
+      "planeChange": "DAL"
+    },
+    "id": 15
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "AUS",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["Unavailable", "Unavailable", "Unavailable"],
+      "arrTime": "2:25 PM",
+      "deptTime": "7:15 AM",
+      "duration": "7h 10m",
+      "numStops": "2",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2301", "15", "/", "2376"],
+      "planeChange": "DAL,HOU"
+    },
+    "id": 16
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "AUS",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["Unavailable", "Unavailable", "Unavailable"],
+      "arrTime": "2:25 PM",
+      "deptTime": "7:15 AM",
+      "duration": "7h 10m",
+      "numStops": "2",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2301", "19", "/", "2376"],
+      "planeChange": "DAL,HOU"
+    },
+    "id": 17
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "AUS",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["Unavailable", "471", "353"],
+      "arrTime": "9:25 PM",
+      "deptTime": "12:05 PM",
+      "duration": "9h 20m",
+      "numStops": "2",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2432", "39", "/", "674"],
+      "planeChange": "DAL,HOU"
+    },
+    "id": 18
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "AUS",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["Unavailable", "476", "358"],
+      "arrTime": "9:25 PM",
+      "deptTime": "12:05 PM",
+      "duration": "9h 20m",
+      "numStops": "2",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2432", "33", "/", "674"],
+      "planeChange": "DAL,HOU"
+    },
+    "id": 19
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "AUS",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["501", "451", "358"],
+      "arrTime": "9:25 PM",
+      "deptTime": "12:05 PM",
+      "duration": "9h 20m",
+      "numStops": "2",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2432", "45", "/", "674"],
+      "planeChange": "DAL,HOU"
+    },
+    "id": 20
+  },
+
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "ATL",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["Unavailable", "Unavailable", "Unavailable"],
+      "arrTime": "2:00 PM",
+      "deptTime": "7:15 AM",
+      "duration": "5h 45m",
+      "numStops": "1",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2301", "713"],
+      "planeChange": "DAL"
+    },
+    "id": 21
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "ATL",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["574", "524", "464"],
+      "arrTime": "7:25 PM",
+      "deptTime": "12:05 PM",
+      "duration": "6h 20m",
+      "numStops": "1",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2432", "3260"],
+      "planeChange": "DAL"
+    },
+    "id": 22
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "ATL",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["579", "529", "469"],
+      "arrTime": "9:30 PM",
+      "deptTime": "12:05 PM",
+      "duration": "8h 25m",
+      "numStops": "1",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2432", "4087"],
+      "planeChange": "DAL"
+    },
+    "id": 23
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "ATL",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["792", "742", "464"],
+      "arrTime": "12:45 AM",
+      "deptTime": "4:45 PM",
+      "duration": "7h 0m",
+      "numStops": "1",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["4855", "2298"],
+      "planeChange": "LAS"
+    },
+    "id": 24
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "ATL",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["579", "529", "469"],
+      "arrTime": "7:45 PM",
+      "deptTime": "12:05 PM",
+      "duration": "6h 40m",
+      "numStops": "2",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2432", "3831", "/", "854"],
+      "planeChange": "DAL,AUS"
+    },
+    "id": 25
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "ATL",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["579", "529", "469"],
+      "arrTime": "8:40 PM",
+      "deptTime": "12:05 PM",
+      "duration": "7h 35m",
+      "numStops": "2",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2432", "3917", "/", "3678"],
+      "planeChange": "DAL,STL"
+    },
+    "id": 26
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "ATL",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["579", "529", "469"],
+      "arrTime": "9:00 PM",
+      "deptTime": "12:05 PM",
+      "duration": "7h 55m",
+      "numStops": "2",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2432", "2564", "/", "400"],
+      "planeChange": "DAL,MDW"
+    },
+    "id": 27
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "ATL",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["Unavailable", "747", "469"],
+      "arrTime": "9:30 PM",
+      "deptTime": "12:05 PM",
+      "duration": "8h 25m",
+      "numStops": "2",
+      "seatsLeft": [null, null, null],
+      "flightNums": ["2432", "33", "/", "1913"],
+      "planeChange": "DAL,HOU"
+    },
+    "id": 28
+  },
+  {
+    "departurePort": "AMA",
+    "arrivalPort": "ATL",
+    "date": "2025-01-28",
+    "metadata": {
+      "prices": ["579", "529", "469"],
+      "arrTime": "9:30 PM",
+      "deptTime": "12:05 PM",
+      "duration": "8h 25m",
+      "numStops": "2",
+      "seatsLeft": ["1", null, null],
+      "flightNums": ["2432", "39", "/", "1913"],
+      "planeChange": "DAL,HOU"
+    },
+    "id": 29
+  }
+]
